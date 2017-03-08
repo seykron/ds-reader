@@ -1,0 +1,20 @@
+{
+  "name": "ds-reader",
+  "version": "1.0.0",
+  "description": "Buffered readers for big data sets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "data",
+    "set",
+    "reader"
+  ],
+  "author": "seykron <seykron@riseup.net>",
+  "license": "GPL-2.0",
+  "dependencies": {
+    "co": "^4.6.0",
+    "debug": "^2.6.1"
+  }
+}
