@@ -4,7 +4,7 @@
   "description": "Buffered readers for big data sets",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "keywords": [
     "data",
@@ -16,5 +16,8 @@
   "dependencies": {
     "co": "^4.6.0",
     "debug": "^2.6.1"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
   }
 }
